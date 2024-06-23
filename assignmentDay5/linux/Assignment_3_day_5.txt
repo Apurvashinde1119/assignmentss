@@ -1,0 +1,211 @@
+1. ls:-
+List directory contents.
+
+EX:-
+ls
+ls -l
+ls -a
+
+2. cd
+Change directory.
+
+EX:-
+cd /home/user
+cd ..
+cd ~
+
+3. pwd
+Print the current working directory.
+
+EX:-
+pwd
+
+4. mkdir
+Create a new directory.
+
+EX:-
+mkdir new_directory
+mkdir -p parent_directory/child_directory
+
+5. rmdir
+Remove an empty directory.
+
+EX:-
+rmdir empty_directory
+
+6. rm
+Remove files or directories.
+
+EX:-
+rm file.txt
+rm -r directory
+rm -f force_delete_file.txt
+
+7. cp
+Copy files or directories.
+
+EX:-
+cp source_file.txt destination_file.txt
+cp -r source_directory destination_directory
+
+8. mv
+Move or rename files or directories.
+
+EX:-
+mv old_name.txt new_name.txt
+mv file.txt /new_directory/
+
+9. touch
+Create an empty file or update the timestamp of an existing file.
+
+EX:-
+touch newfile.txt
+
+10. cat
+Concatenate and display file content.
+
+EX:-
+cat file.txt
+cat file1.txt file2.txt
+
+11. more
+View file content one page at a time.
+
+EX:-
+more largefile.txt
+
+12. less
+View file content with navigation.
+
+EX:-
+less largefile.txt
+
+13. head
+View the first few lines of a file.
+
+EX:-
+head file.txt
+head -n 20 file.txt
+
+14. tail
+View the last few lines of a file.
+
+EX:-
+tail file.txt
+tail -n 20 file.txt
+tail -f logfile.txt
+
+15. echo
+Display a line of text.
+
+EX:-
+echo "Hello, World!"
+echo $HOME
+
+16. grep
+Search for patterns in files.
+
+EX:-
+grep "search_term" file.txt
+grep -r "search_term" /directory
+
+17. find
+Search for files in a directory hierarchy.
+
+EX:-
+find /directory -name "filename"
+find /directory -type d -name "dirname"
+
+18. chmod
+Change file permissions.
+
+EX:-
+chmod 755 file.sh
+chmod -R 755 directory
+
+19. chown
+Change file owner and group.
+
+EX:-
+chown user:group file.txt
+chown -R user:group directory
+
+20. ps
+Display information about active processes.
+
+EX:-
+ps
+ps aux
+ps -ef
+
+21. kill
+Terminate processes.
+
+EX:-
+kill PID
+kill -9 PID
+
+22. top
+Display real-time system statistics and processes.
+
+EX:-
+top
+
+23. df
+Report file system disk space usage.
+
+EX:-
+df
+df -h
+
+24. du
+Estimate file space usage.
+
+EX:-
+du
+du -h
+du -sh directory
+
+25. tar
+Archive files.
+
+EX:-
+tar -cvf archive.tar file1 file2
+tar -xvf archive.tar
+tar -czvf archive.tar.gz directory
+tar -xzvf archive.tar.gz
+
+26. zip
+Compress files.
+
+EX:-
+zip archive.zip file1 file2
+unzip archive.zip
+
+27. wget
+Download files from the web.
+
+EX:-
+wget http://example.com/file.zip
+wget -O custom_name.zip http://example.com/file.zip
+
+28. curl
+Transfer data from or to a server.
+
+EX:-
+curl http://example.com
+curl -O http://example.com/file.zip
+
+29. ssh
+Connect to a remote machine securely.
+
+EX:-
+ssh user@remote_host
+ssh -i private_key.pem user@remote_host
+
+30. scp
+Securely copy files between hosts.
+
+EX:-
+scp file.txt user@remote_host:/remote/directory/
+scp -i private_key.pem file.txt user@remote_host:/remote/directory/

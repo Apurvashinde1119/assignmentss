@@ -1,0 +1,41 @@
+  2. basic task 
+       a. write a command to create a file named demo.txt inside Movies directory 
+             ANS:-
+                  mkdir demo.txt
+                  touch Movies/demo.txt
+
+
+
+        b. copy  hello.txt files from Desktop to Downloads directory 
+                ANS:-
+
+                     cp /Desktop/hello.txt /Downloads/
+       
+       c. Write a command to display all the files from Movies Directory
+              ANS:-
+                    ls Movies
+                    ls -a Movies
+                    ls -l Movies
+                    ls -la Movies
+
+       d. display first 15 lines of demo.txt file
+             Ans:-
+                   head -n 15 Movies/demo.txt
+
+      e. using cat command, create a new file and write the data to the file.
+            Ans:-
+                  cat > newfile.txt
+
+                  cat > example.txt
+                      
+                  cat example.txt
+
+      f. read the file content of demo.txt
+          Ans:-
+                  cat Movies/demo.txt
+
+                  head Movies/demo.txt
+ 
+                  tail Movies/demo.txt
+
+      

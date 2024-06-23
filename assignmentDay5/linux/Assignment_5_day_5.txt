@@ -1,0 +1,39 @@
+  3. explain absolute and relative path
+
+  Ans:-
+
+ # Absolute Path:-
+
+An absolute path is the complete path to a file or directory from the root directory. It always starts with the root directory, which is denoted by a forward slash (/). Absolute paths provide the exact location of a file or directory in the file system, regardless of the current working directory.
+
+Examples of Absolute Paths:-
+
+1.Root Directory:
+/
+
+2.Home Directory:
+/home/user
+
+3.Specific File:
+/home/user/Documents/report.txt
+
+4.System Directory:
+/usr/bin
+
+# Relative Path:-
+
+A relative path is a path to a file or directory relative to the current working directory. It does not start with a forward slash (/). Relative paths are shorter and more convenient when working within a specific directory structure.
+
+Examples of Relative Paths:-
+
+1.Current Directory:
+.
+
+2.Parent Directory:
+..
+
+3.Sibling Directory (if you are in /home/user and want to go to /home/user/Documents):
+Documents
+
+4.Specific File (if you are in /home/user and want to access /home/user/Documents/report.txt):
+Documents/report.txt
