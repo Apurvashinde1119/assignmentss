@@ -1,0 +1,75 @@
+2.explain the responsibility of scrum roles,
+
+#scrum master.
+
+
+The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, the development team deliver the value, and the scrum team to get to get better.
+
+The scrum master focuses on:
+
+1.Transparency - To effectively inspect and adapt it is important that the right people can see what is going on. But this is actually much harder than it looks. The scrum master is tasked with ensuring that the scrum team works in a transparent way. Examples include creating story maps and updating Confluence pages with retrospective ideas.
+Empiricism - A fundamental for scrum and agile approaches the idea that the best way of planning is to do work and learn from it. The empirical process is not easy and requires the scrum master to coach the scrum team on breaking down work, describing clear outcomes, and reviewing those outcomes.
+
+2.Self-organization - Telling a development team they can self-organize does mean that the team will self-organize. In fact, self-organization comes over time and requires help and support. The scrum master will encourage team members to step outside their comfort zone and try different things and use practices such as ‘delegation poker’ to expose and challenge predefined ideas about role boundaries and responsibilities.
+
+3.Values - Scrum defines 5 values of courage, focus, commitment, respect, and openness not because they are nice to have, but because they create an environment of physiological safety and trust. This environment is necessary for agility to thrive. Following the values is the responsibility of everyone in the scrum team, but the scrum master takes an active role in encouraging and reminding everyone of the importance of those values.
+
+4.Communication:
+
+Acts as a bridge between the team and external stakeholders.
+Ensures clear communication and collaboration within the team and with the Product Owner.
+
+
+#product owner.
+
+1.Vision and Strategy:
+
+Defines the product vision and strategy in alignment with the business goals.
+Communicates the vision clearly to the Scrum team and stakeholders.
+
+2.Backlog Management:
+
+Creates, maintains, and prioritizes the Product Backlog, ensuring it reflects the most valuable work for the team.
+Writes clear and concise user stories, including acceptance criteria.
+
+3.Stakeholder Collaboration:
+
+Engages with stakeholders to gather requirements, feedback, and insights.
+Represents the needs and interests of stakeholders to the Scrum team.
+
+4.Acceptance Criteria:
+
+Defines and communicates the acceptance criteria for work items.
+Reviews and accepts or rejects work completed by the Development Team based on these criteria.
+
+5.Release Planning:
+
+Plans and manages product releases.
+Balances scope, budget, and time to deliver the maximum value.
+
+#development team:
+
+1.Self-Organization:
+
+Self-organizes and manages its own work to achieve the sprint goals.
+Decides how to accomplish tasks and assigns work among team members.
+
+2.Cross-Functionality:
+
+Possesses all the skills necessary to deliver a potentially shippable product increment at the end of each sprint.
+Collaborates closely, leveraging each team member’s expertise to complete tasks.
+
+3.Quality and Standards:
+
+Ensures the product meets the agreed-upon quality standards and adheres to the Definition of Done.
+Continuously improves code quality, testing, and integration practices.
+
+4.Commitment and Accountability:
+
+Commits to the sprint goal and works collectively to achieve it.
+Takes responsibility for delivering the sprint backlog items.
+
+5.Transparency and Communication:
+
+Communicates progress and challenges during Daily Stand-ups.
+Works transparently, providing visibility into their progress and potential obstacles.

@@ -1,0 +1,33 @@
+
+
+1.Write 2 scripts for daily stand up meetings.
+
+
+
+Scrum master:
+ 
+(coach/mentor/facilitator)
+ 
+->Good Morning team, lets starts the daily stand up meeting,
+ 
+->keep the update short and clear,
+ 
+->And plan for the today's task,
+ 
+-> lets start the update with mahesh,
+ 
+mahesh: Yesterday i have worked on reset password .
+     -today i will work on the registration part.
+     - there is the some issue with the sending the reset            link on the mail.
+ 
+priti:- Yesterday i have worked on notification part for hotel booking some of the part of tracking is pending which will completed by today
+ 
+ 
+ 
+manasi:
+yesterday worked on product Address management today working on hotel search.
+ 
+Scrum master: Thank you all for the update,you can leave the meeting.
+ 
+ 
+Meeting end : 10:35.
