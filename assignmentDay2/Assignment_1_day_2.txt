@@ -1,0 +1,26 @@
+Day 2 - Assignment 1 
+	SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment), highlighting the importance of each phase and how they interconnect.
+
+	Phases of SDLC
+1. Requirements
+•	Gathering and documenting what is needed from the software.
+•	Importance: Clear requirements help ensure the final product meets user needs and reduces the risk of costly changes later.
+•	Interconnection: Forms the foundation for the Design phase.
+2. Design
+•	Creating a blueprint for the system, including architecture, user interfaces, and data models.
+•	Importance: A well-thought-out design ensures the system will be scalable, efficient, and maintainable.
+•	Interconnection: Translates requirements into a plan. Essential for guiding Implementation.
+3. Implementation
+•	Actual coding and building of the software.
+•	Importance: The core of software creation where designs are translated into a functional system.
+•	Interconnection: Converts designs into a working product, setting the stage for Testing.
+4. Testing
+•	Verifying and validating that the software works as intended and is free of defects.
+•	Importance: Ensures the quality and reliability of the software, preventing future issues.
+•	Interconnection: Critical for identifying issues before Deployment. It relies on clear requirements and design.
+5. Deployment
+•	Releasing the final product to users.
+•	Importance: The culmination of all previous phases, making the software available for use.
+•	Interconnection: Success depends on thorough Testing. Feedback from Deployment may loop back into Requirements for future enhancements.
+
+ 	
