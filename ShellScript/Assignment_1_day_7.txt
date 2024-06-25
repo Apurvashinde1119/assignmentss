@@ -1,0 +1,30 @@
+1.count the number of files and folder present in the directory.  if possible take the directory path from user.
+
+
+#!/bin/bash
+
+read -p "Enter the directory path: " directory_path
+
+
+if [ ! -d "$directory_path" ]; then
+    echo "Directory '$directory_path' does not exist."
+    exit 1
+fi
+
+
+file_count=0
+folder_count=0
+
+
+for item in "$directory_path"/*; do
+    if [ -f "$item" ]; then
+        (( file_count++ ))
+    elif [ -d "$item" ]; then
+        (( folder_count++ ))
+    fi
+done
+
+# Display results
+echo "Number of files: $file_count"
+echo "Number of folders: $folder_count"
+

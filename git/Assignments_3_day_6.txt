@@ -1,0 +1,28 @@
+3. write a step to create a new branch and merge with master branch
+
+First, make sure you are on the master branch (or the branch you intend to merge into):-
+git checkout master
+
+Create a new branch from master where you'll make your changes:-
+git checkout -b new-feature
+
+Make your changes to the codebase. After making changes, add and commit them:-
+git add .
+git commit -m "Implemented new feature"
+
+Once you've committed your changes on the new-feature branch, switch back to the master branch:-
+git checkout master
+
+Merge the changes from new-feature branch into master:-
+git merge new-feature
+
+
+If there are merge conflicts, Git will notify you. Open the conflicted files, resolve the conflicts, and then add the resolved files:-
+git add <conflicted-file1> <conflicted-file2> ...
+
+After resolving conflicts, complete the merge commit:-
+git commit
+
+If you want to push the merged changes to a remote repository (like GitHub, GitLab, etc.):-
+git push origin master
+

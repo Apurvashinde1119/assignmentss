@@ -1,0 +1,25 @@
+3.Write a script that reads numbers from the user until they
+              enter '0'. The script should also print whether each number is odd or even.
+
+
+
+#!/bin/bash
+
+echo "Enter numbers (enter '0' to stop):"
+
+while true; do
+    read -p "Enter a number: " number
+
+    # Check if the input is '0' to stop the loop
+    if [ "$number" -eq 0 ]; then
+        echo "Exiting..."
+        break
+    fi
+
+    # Check if the number is odd or even
+    if [ $((number % 2)) -eq 0 ]; then
+        echo "$number is even"
+    else
+        echo "$number is odd"
+    fi
+done
