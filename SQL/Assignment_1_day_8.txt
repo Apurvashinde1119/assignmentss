@@ -1,0 +1,29 @@
+ 1. create a product table with necessary attribute. 
+        write a query for table creation, 
+        insert the product data into the table.
+        write a query to reterive all the product details 
+        write a query to reterive id and product name 
+        write a query to update and delete a product
+
+
+
+
+create table product(
+id number(10),
+productname varchar2(30),
+price number(10,2),
+stockquantity number(10)
+);
+
+insert into product values(1,'biscuits',20,10);
+insert into product values(2,'chocklets',05,50);
+insert into product values(3,'ice-creame',25,40);
+insert into product values(4,'chips',10,80);
+
+select * from product;
+
+select id,productname from product;
+
+update product set productname='kurkure' where id=4;
+
+delete from product where id=2;
