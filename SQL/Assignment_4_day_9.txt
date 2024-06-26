@@ -1,0 +1,104 @@
+Design a database schema for a library system, 
+       including tables, fields, and constraints like NOT NULL, 
+       UNIQUE, and CHECK. Include primary and foreign keys to establish 
+       relationships between tables.
+
+
+ANS:-
+
+
+Authors
+
+Fields:-
+
+author_id INT PRIMARY KEY
+author_name VARCHAR(100) NOT NULL
+birth_year INT
+country VARCHAR(100)
+
+Constraints:
+
+author_id is the primary key.
+author_name cannot be NULL.
+
+Books
+
+Fields:-
+
+book_id INT PRIMARY KEY
+title VARCHAR(255) NOT NULL
+isbn VARCHAR(20) UNIQUE
+publication_year INT
+author_id INT NOT NULL
+available BOOLEAN DEFAULT TRUE NOT NULL
+
+Constraints:
+
+book_id is the primary key.
+title cannot be NULL.
+isbn must be unique.
+author_id is a foreign key referencing Authors (author_id).
+available indicates whether the book is currently available for borrowing.
+
+Borrowers
+
+Fields:-
+
+borrower_id INT PRIMARY KEY
+name VARCHAR(100) NOT NULL
+address VARCHAR(255)
+phone_number VARCHAR(20)
+email VARCHAR(100) UNIQUE NOT NULL
+
+Constraints:
+
+borrower_id is the primary key.
+name cannot be NULL.
+email must be unique and cannot be NULL.
+
+Transactions
+
+Fields:-
+
+transaction_id INT PRIMARY KEY
+book_id INT NOT NULL
+borrower_id INT NOT NULL
+checkout_date DATE NOT NULL
+return_date DATE
+
+Constraints:
+
+transaction_id is the primary key.
+book_id is a foreign key referencing Books (book_id).
+borrower_id is a foreign key referencing Borrowers (borrower_id).
+checkout_date cannot be NULL.
+return_date must be later than checkout_date (CHECK constraint).
+
+Relationships
+
+Books <-> Authors: Many-to-One relationship (one author can write many books).
+
+Books.author_id (FK) references Authors.author_id (PK).
+Transactions <-> Books: Many-to-One relationship (one book can have many transactions).
+
+Transactions.book_id (FK) references Books.book_id (PK).
+Transactions <-> Borrowers: Many-to-One relationship (one borrower can have many transactions).
+
+Transactions.borrower_id (FK) references Borrowers.borrower_id (PK).
+
+
+
+Primary Keys (PK): -
+Each table has a primary key (*_id fields) to uniquely identify each record within that table.
+
+Foreign Keys (FK):-
+ Used to establish relationships between tables (author_id in Books, book_id and borrower_id in Transactions).
+
+NOT NULL Constraints:-
+ Ensure that essential fields (title in Books, name in Borrowers, etc.) cannot be empty.
+
+UNIQUE Constraints:-
+ Enforce uniqueness where necessary (isbn in Books, email in Borrowers) to prevent duplicate entries.
+
+CHECK Constraints:-
+ Ensure data validity (return_date > checkout_date in Transactions) to maintain consistency in transaction records.
